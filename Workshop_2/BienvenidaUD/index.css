@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fff8e1;
     color: #4d0000;
+    font-size: 16px;
+    overflow-y: auto;
 }
 
 header {
@@ -12,18 +14,21 @@ header {
 }
 
 header h1 {
-    color: #b22222; 
+    color: #ea0909;
     font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 main {
     padding: 20px;
     text-align: center;
+    min-height: 100vh;
 }
 
 .introduction h2 {
-    color: #b22222; 
+    color: #333; 
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .introduction p {
@@ -38,12 +43,28 @@ main {
     border: 5px solid #b22222;
 }
 
+button {
+    background-color: #e6ea09;
+    color: rgba(215, 21, 21, 0.697);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
 footer {
     background-color: #ffcc00;
     color: #4d0000;
     padding: 10px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    position: relative;
 }
